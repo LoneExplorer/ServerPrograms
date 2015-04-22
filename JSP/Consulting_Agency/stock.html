@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h3>Stock Informer</h3>
+        <form action="stockJSP.jsp">
+            Enter a stock symbol: <input name="word" type="text" pattern="[a-zA-Z].{1,}" required size="5"/>
+            &nbsp; &nbsp; <br/><input type="submit" value="Get Quote"/> &nbsp; &nbsp; <input type="reset" value="Clear Values"/>
+        </form>
+    </body>
+</html>
